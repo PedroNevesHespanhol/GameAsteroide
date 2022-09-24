@@ -2,6 +2,7 @@ const input = document.querySelector('.login-input');
 const senha = document.querySelector('.login-senha');
 const button = document.querySelector('.login-button');
 const form = document.querySelector('.login-form');
+const player = document.querySelector('.player');
 
 const validateInput = ({ target}) => {
     if(target.value.length > 4){
